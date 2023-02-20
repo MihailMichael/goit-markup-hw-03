@@ -1,0 +1,354 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  background: #ffffff;
+  margin: 0px 50px;
+}
+ul {
+  display: flex;
+}
+/* Header */
+.page-header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  background: #ffffff;
+}
+.nav-list {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  align-items: center;
+}
+.headerList {
+  align-items: center;
+}
+.right-nav-list {
+  display: flex;
+}
+.unstyled {
+  list-style: none;
+}
+.logo::after {
+  content: "Studio";
+  color: black;
+}
+.logo,
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-footer::after {
+  content: "Studio";
+  color: #ffffff;
+}
+.link {
+  text-decoration: none;
+  color: #212121;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.linkStudio {
+  margin: 32px 22px 32px 93px;
+}
+.linkPortfolio {
+  margin: 32px 50px 32px 30px;
+}
+
+.linkInfo {
+  display: flex;
+  width: 135px;
+  height: 16px;
+  margin: 35px 40px 32px 143px;
+}
+.linkTel {
+  display: flex;
+  width: 133px;
+  height: 16px;
+  left: 1252px;
+  margin: 35px 40px 32px 3px;
+}
+/* First Section*/
+.first-section {
+  background: #2f303a;
+  width: 1200px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+.title-motto {
+  width: 937px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 207px 3px 100px 270px;
+}
+button[type="button"] {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  margin: 0px 450px 200px 500px;
+}
+.botton-request {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  padding-left: 20px;
+}
+/* Second Section */
+.second-section {
+  width: 1200px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: #e5e5e5;
+}
+
+.title-list {
+  width: 270px;
+  height: 16px;
+  top: 774px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #212121;
+  margin: 94px 10px 10px 0px;
+}
+.sub-list {
+  width: 270px;
+  height: 75px;
+  top: 800px;
+  line-height: 24px;
+  color: #757575;
+}
+/* Third Section*/
+.third-section {
+  background: #e5e5e5;
+  text-align: center;
+}
+.title {
+  width: 250px;
+  height: 42px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 94px 500px 50px 500px;
+}
+.listImageStudio {
+  align-content: center;
+}
+.imagesStudio2 {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+/* Fourth Section*/
+.fourth-section {
+  background: #f5f4fa;
+  line-height: 19px;
+  text-align: center;
+  padding-right: 30px;
+}
+.nameteam {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.nameChris {
+  width: 150px;
+  height: 19px;
+  margin: 25px 70px 10px 69px;
+}
+.nameKylie {
+  width: 100px;
+  height: 19px;
+  margin: 25px 90px 10px 90px;
+}
+.nameRyan {
+  width: 100px;
+  height: 19px;
+  margin: 25px 91px 10px 91px;
+}
+.nameTyler {
+  width: 100px;
+  height: 19px;
+  margin: 25px 89px 10px 90px;
+}
+.specialty {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #757575;
+}
+.specialtyChris {
+  width: 130px;
+  height: 19px;
+  margin: 10px 70px 30px 70px;
+}
+.specialtyKylie {
+  width: 147px;
+  height: 19px;
+  margin: 10px 61px 30px 62px;
+}
+.specialtyRyan {
+  width: 76px;
+  height: 19px;
+  margin: 10px 97px 30px 97px;
+}
+.specialtyTyler {
+  width: 87px;
+  height: 19px;
+  margin: 10px 91px 30px 92px;
+}
+.page-footer {
+  background: #2f303a;
+  height: 251px;
+  margin: 94px 0px;
+}
+.footerList {
+  flex-direction: column;
+  padding-top: 60px;
+}
+.logo-footer {
+  margin-left: 69px;
+}
+.pozi-adress {
+  width: 207px;
+  height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 69px;
+}
+.contact-adress {
+  width: 231px;
+  height: 16px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 69px;
+}
+.pozi-adress:hover,
+.pozi-adress:focus,
+.contact-adress-info:hover,
+.contact-adress-info:focus {
+  color: #2196f3;
+}
+/* PortfolioCss*/
+.bottonSection {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.list-botton {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  gap: 8px;
+  margin-top: 94px;
+}
+.mark-botton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.mark-botton:hover,
+.mark-botton:focus {
+  color: #ffffff;
+  background: #2196f3;
+  border-color: #2196f3;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.link-porto {
+  color: #212121;
+  text-decoration: none;
+}
+.link-porto:hover,
+.link-porto:focus {
+  color: #ffffff;
+}
+.imagesClass {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.titles {
+  width: 322px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin: 20px 24px 4px 24px;
+}
+.specialtys {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 4px 24px 20px 24px;
+}
+.imagesList {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  width: 1200px;
+}

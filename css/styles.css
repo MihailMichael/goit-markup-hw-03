@@ -19,7 +19,6 @@ ul {
   height: 60px;
   display: flex;
   justify-content: center;
-  width: 1200px;
   background: #808080;
 }
 .nav-list {
@@ -92,6 +91,7 @@ ul {
   height: 600px;
   left: 0px;
   top: 80px;
+  margin-top: 0px;
 }
 .title-motto {
   width: 937px;
@@ -128,10 +128,10 @@ button[type="button"] {
 }
 /* Second Section */
 .second-section {
-  width: 1200px;
   font-size: 14px;
   letter-spacing: 0.03em;
   background-color: #e5e5e5;
+  margin-top: 94px;
 }
 
 .title-list {
@@ -166,19 +166,20 @@ button[type="button"] {
   color: #212121;
   margin: 94px 500px 50px 500px;
 }
-.listImageStudio {
-  align-content: center;
+.unorderImages {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
 }
-.imagesStudio2 {
-  margin-right: 25px;
-  margin-left: 25px;
-}
+
 /* Fourth Section*/
 .fourth-section {
-  background: #f5f4fa;
+  display: flex;
+  background-color: #808080;
   line-height: 19px;
   text-align: center;
-  padding-right: 30px;
+  flex-wrap: wrap;
+  margin-top: 94px;
 }
 .nameteam {
   font-weight: 500;
@@ -235,7 +236,7 @@ button[type="button"] {
 .page-footer {
   background: #808080;
   height: 251px;
-  margin: 94px 0px;
+  margin: 0px 50px;
 }
 .footerList {
   flex-direction: column;

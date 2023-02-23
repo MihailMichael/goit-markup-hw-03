@@ -330,6 +330,7 @@ button[type="button"] {
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
+  margin-top: 34px;
 }
 .titles {
   width: 322px;

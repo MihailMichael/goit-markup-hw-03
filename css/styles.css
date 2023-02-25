@@ -1,6 +1,6 @@
 * {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
@@ -16,29 +16,34 @@ body {
   width: 1200px;
   margin: auto;
 }
-ul {
-  display: flex;
-}
+
 /* Header */
 .page-header {
+  border: 1px solid #ececec;
+}
+.container-header {
   height: 60px;
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 .nav-list {
   display: flex;
+  flex-grow: 1;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
-  align-items: center;
 }
-.headerList {
-  align-items: center;
-}
+.headerList,
 .right-nav-list {
   display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .unstyled {
   list-style: none;
 }
@@ -69,46 +74,30 @@ ul {
 .link:focus {
   color: #2196f3;
 }
-.linkStudio {
-  margin: 32px 22px 32px 93px;
-}
-.linkPortfolio {
-  margin: 32px 50px 32px 30px;
-}
-
-.linkInfo {
-  display: flex;
-  width: 135px;
-  height: 16px;
-  margin: 35px 40px 32px 143px;
-}
-.linkTel {
-  display: flex;
-  width: 133px;
-  height: 16px;
-  left: 1252px;
-  margin: 35px 40px 32px 3px;
-}
 /* First Section*/
+.container-first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
 .first-section {
   background: #2f303a;
-  width: 1200px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-  margin-top: 0px;
+  height: 696px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .title-motto {
-  width: 937px;
+  width: 763px;
   height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding: 207px 3px 100px 270px;
 }
 button[type="button"] {
   background: #2196f3;
@@ -116,7 +105,6 @@ button[type="button"] {
   border-radius: 4px;
   width: 200px;
   height: 50px;
-  margin: 21px 450px 200px 500px;
 }
 .botton-request {
   font-family: "Roboto";
@@ -124,53 +112,50 @@ button[type="button"] {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  padding-left: 20px;
 }
 /* Second Section */
 .second-section {
   font-size: 14px;
   letter-spacing: 0.03em;
-
   margin-top: 94px;
+}
+.container-second-section > ul {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
 }
 
 .title-list {
   width: 270px;
   height: 16px;
-  top: 774px;
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
   color: #212121;
-  margin: 94px 10px 10px 0px;
 }
 .sub-list {
   width: 270px;
   height: 75px;
-  top: 800px;
   line-height: 24px;
   color: #757575;
 }
 /* Third Section*/
 .third-section {
-  text-align: center;
+  margin-top: 94px;
 }
 .title {
-  width: 250px;
   height: 42px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
   color: #212121;
-  margin: 94px 500px 50px 500px;
+  text-align: center;
+  margin-bottom: 50px;
 }
-.unorderImages {
+.container-third-section ul {
   display: flex;
   gap: 30px;
   justify-content: flex-end;
@@ -179,99 +164,76 @@ button[type="button"] {
 /* Fourth Section*/
 .fourth-section {
   display: flex;
+  align-items: center;
+  height: 648px;
   line-height: 19px;
-  text-align: center;
-  flex-wrap: wrap;
-  margin-top: 94px;
-}
-.nameteam {
-  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: #212121;
+  margin-top: 94px;
+  background: #f5f4fa;
+  justify-content: flex-end;
 }
-.nameChris {
-  width: 150px;
-  height: 19px;
-  margin: 25px 70px 10px 69px;
+
+.container-fourth-section > ul {
+  display: flex;
+  gap: 30px;
 }
-.nameKylie {
-  width: 100px;
-  height: 19px;
-  margin: 25px 90px 10px 90px;
-}
-.nameRyan {
-  width: 100px;
-  height: 19px;
-  margin: 25px 91px 10px 91px;
-}
-.nameTyler {
-  width: 100px;
-  height: 19px;
-  margin: 25px 89px 10px 90px;
-}
+.nameteam,
 .specialty {
   font-size: 16px;
   line-height: 19px;
+  letter-spacing: 0.03em;
   text-align: center;
+}
+.nameteam {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #212121;
+}
+.specialty {
+  margin-bottom: 30px;
   color: #757575;
 }
-.specialtyChris {
-  width: 130px;
-  height: 19px;
-  margin: 10px 70px 30px 70px;
+.card-team {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
-.specialtyKylie {
-  width: 147px;
-  height: 19px;
-  margin: 10px 61px 30px 62px;
-}
-.specialtyRyan {
-  width: 76px;
-  height: 19px;
-  margin: 10px 97px 30px 97px;
-}
-.specialtyTyler {
-  width: 87px;
-  height: 19px;
-  margin: 10px 91px 30px 92px;
-}
+/*Footer */
 .page-footer {
+  height: 251px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
   background: #808080;
   height: 251px;
-}
-.footerList {
-  flex-direction: column;
   padding-top: 60px;
 }
-.logo-footer {
-  margin-left: 69px;
+.container-footer {
+  display: flex;
+}
+.footerList {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+.item-pozi {
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+.item-contact {
+  margin-bottom: 12px;
 }
 .pozi-adress {
-  width: 207px;
-  height: 16px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
   color: #ffffff;
-  text-decoration: none;
-  margin-left: 69px;
 }
 .contact-adress {
-  width: 231px;
-  height: 16px;
-  text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-left: 69px;
 }
 .pozi-adress:hover,
 .pozi-adress:focus,
@@ -281,8 +243,10 @@ button[type="button"] {
 }
 /* PortfolioCss*/
 .bottonSection {
+  margin-top: 94px;
+}
+.container-botton-section {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
 }
 .list-botton {
@@ -294,8 +258,9 @@ button[type="button"] {
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
   gap: 8px;
-  margin-top: 94px;
 }
 .mark-botton {
   font-style: normal;
@@ -354,5 +319,11 @@ button[type="button"] {
   display: flex;
   gap: 30px;
   justify-content: flex-end;
-  width: 1200px;
+}
+.item-cards {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.footer-portfolio {
+  margin-top: 94px;
 }

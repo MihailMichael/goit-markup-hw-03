@@ -11,17 +11,13 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
-.container {
-  box-sizing: border-box;
-  width: 1200px;
-  margin: auto;
-}
 
 /* Header */
 .page-header {
   border: 1px solid #ececec;
 }
 .container-header {
+  width: 1200px;
   height: 60px;
   display: flex;
   margin: 0 auto;
@@ -76,6 +72,7 @@ body {
 }
 /* First Section*/
 .container-first-section {
+  width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,14 +114,19 @@ button[type="button"] {
 }
 /* Second Section */
 .second-section {
+  display: flex;
   font-size: 14px;
   letter-spacing: 0.03em;
   margin-top: 94px;
+  justify-content: center;
+}
+.container-second-section {
+  width: 1200px;
+  align-items: center;
 }
 .container-second-section > ul {
   display: flex;
   gap: 30px;
-  justify-content: flex-end;
 }
 
 .title-list {
@@ -143,7 +145,9 @@ button[type="button"] {
 }
 /* Third Section*/
 .third-section {
+  display: flex;
   margin-top: 94px;
+  justify-content: center;
 }
 .title {
   height: 42px;
@@ -155,10 +159,16 @@ button[type="button"] {
   text-align: center;
   margin-bottom: 50px;
 }
+.container-third-section {
+  display: flex;
+  width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
 .container-third-section ul {
   display: flex;
   gap: 30px;
-  justify-content: flex-end;
 }
 
 /* Fourth Section*/
@@ -171,12 +181,15 @@ button[type="button"] {
   letter-spacing: 0.03em;
   margin-top: 94px;
   background: #f5f4fa;
-  justify-content: flex-end;
+  justify-content: center;
 }
-
+..container-fourth-section {
+  width: 1200px;
+}
 .container-fourth-section > ul {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 .nameteam,
 .specialty {
@@ -212,7 +225,9 @@ button[type="button"] {
   padding-top: 60px;
 }
 .container-footer {
+  width: 1200px;
   display: flex;
+  margin: 0 auto;
 }
 .footerList {
   font-family: "Roboto";
@@ -242,10 +257,15 @@ button[type="button"] {
   color: #2196f3;
 }
 /* PortfolioCss*/
+
+/*BottonSection*/
 .bottonSection {
+  display: flex;
+  justify-content: center;
   margin-top: 94px;
 }
 .container-botton-section {
+  width: 1200px;
   display: flex;
   justify-content: center;
 }
@@ -290,12 +310,17 @@ button[type="button"] {
 .link-porto:focus {
   color: #ffffff;
 }
+/*Second Section - Card list */
 .card-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   gap: 30px;
   margin-top: 34px;
+  margin-bottom: 94px;
+}
+.container-card-list {
+  width: 1200px;
 }
 .titles {
   width: 322px;
